@@ -1,0 +1,153 @@
+{
+  "name": "Election War Room",
+  "dataColors": [
+    "#E63946",
+    "#1D3557",
+    "#F4A261",
+    "#2EC4B6",
+    "#457B9D",
+    "#FFD60A",
+    "#4CC9F0",
+    "#C77DFF",
+    "#F72585",
+    "#06D6A0",
+    "#3A86FF",
+    "#FB8500",
+    "#8338EC",
+    "#90E0EF",
+    "#FFB703",
+    "#EF233C",
+    "#B5E48C",
+    "#FF6B6B",
+    "#4ECDC4",
+    "#A8DADC"
+  ],
+  "good": "#06D6A0",
+  "neutral": "#FFD60A",
+  "bad": "#E63946",
+  "maximum": "#3A86FF",
+  "center": "#FFD60A",
+  "minimum": "#1D3557",
+  "null": "#F4A261",
+  "tableAccent": "#E63946",
+  "background": "#0D1B2A",
+  "foreground": "#F0F4FF",
+  "foregroundNeutralSecondary": "#B0BEC5",
+  "foregroundNeutralTertiary": "#78909C",
+  "backgroundLight": "#1B2A4A",
+  "backgroundNeutral": "#2C3E50",
+  "hyperlink": "#4CC9F0",
+  "visitedHyperlink": "#90E0EF",
+  "textClasses": {
+    "callout": {
+      "fontSize": 45,
+      "fontFace": "Segoe UI",
+      "color": "#F0F4FF"
+    },
+    "title": {
+      "fontSize": 14,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#E63946"
+    },
+    "header": {
+      "fontSize": 13,
+      "fontFace": "Segoe UI Bold",
+      "color": "#FFD60A"
+    },
+    "label": {
+      "fontSize": 11,
+      "fontFace": "Segoe UI",
+      "color": "#B0BEC5"
+    },
+    "largeTitle": {
+      "fontSize": 40,
+      "fontFace": "Segoe UI Bold",
+      "color": "#E63946"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#1B2A4A" } },
+            "transparency": 0
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#FFD60A" } },
+            "background": { "solid": { "color": "#0D1B2A" } },
+            "fontSize": 13,
+            "fontFamily": "Segoe UI Bold",
+            "alignment": "center"
+          }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": { "solid": { "color": "#B0BEC5" } },
+            "gridlineColor": { "solid": { "color": "#2C3E50" } },
+            "titleColor": { "solid": { "color": "#90E0EF" } }
+          }
+        ],
+        "valueAxis": [
+          {
+            "labelColor": { "solid": { "color": "#B0BEC5" } },
+            "gridlineColor": { "solid": { "color": "#2C3E50" } },
+            "titleColor": { "solid": { "color": "#90E0EF" } }
+          }
+        ],
+        "legend": [
+          {
+            "fontColor": { "solid": { "color": "#F0F4FF" } },
+            "fontSize": 10
+          }
+        ],
+        "dataLabel": [
+          {
+            "color": { "solid": { "color": "#F0F4FF" } },
+            "fontSize": 10
+          }
+        ]
+      }
+    },
+    "clusteredBarChart": {
+      "*": {
+        "dataPoint": [
+          { "defaultColor": { "solid": { "color": "#E63946" } } }
+        ]
+      }
+    },
+    "map": {
+      "*": {
+        "legend": [
+          { "fontColor": { "solid": { "color": "#F0F4FF" } } }
+        ]
+      }
+    },
+    "scatterChart": {
+      "*": {
+        "dataPoint": [
+          { "defaultColor": { "solid": { "color": "#4CC9F0" } } }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "data": [
+          {
+            "fontColor": { "solid": { "color": "#F0F4FF" } },
+            "background": { "solid": { "color": "#1B2A4A" } }
+          }
+        ],
+        "header": [
+          {
+            "fontColor": { "solid": { "color": "#FFD60A" } },
+            "background": { "solid": { "color": "#0D1B2A" } }
+          }
+        ]
+      }
+    }
+  }
+}
